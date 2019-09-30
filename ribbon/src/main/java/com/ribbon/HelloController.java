@@ -21,4 +21,11 @@ public class HelloController {
     public String hi(@RequestParam String name) {
         return helloService.hiService(name);
     }
+
+    @GetMapping(value = "/index")
+    public String index(@RequestParam String name) {
+        return helloService.hiService(name);
+    }
+
+
 }
