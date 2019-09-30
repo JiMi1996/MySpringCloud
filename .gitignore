@@ -1,0 +1,17 @@
+.idea
+*.iml
+target
+.settings
+.project
+.classpath
+*.zip
+*.iml
+*.eml
+build
+.DS_Store
+*.log
+*.log.*
+generatorConfig.xml
+*.cache
+*.lock
+.gradle
