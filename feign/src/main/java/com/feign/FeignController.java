@@ -17,7 +17,7 @@ public class FeignController {
     @Autowired
     FeignService service;
 
-    @GetMapping(value = "/feignhi")
+    @GetMapping(value = "/hi")
     public String sayHi(@RequestParam String name) {
         return service.sayHello( name );
     }

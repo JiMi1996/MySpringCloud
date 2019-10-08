@@ -12,6 +12,6 @@ import org.springframework.stereotype.Component;
 public class FeignServiceHystrix implements FeignService{
     @Override
     public String sayHello(String name) {
-        return "say error：" + name;
+        return "feign say error：" + name;
     }
 }
