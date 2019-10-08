@@ -22,6 +22,7 @@
         <module>client</module>
         <module>ribbon</module>
         <module>client-two</module>
+        <module>feign</module>
     </modules>
 
     <properties>
