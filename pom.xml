@@ -24,6 +24,8 @@
         <module>client-two</module>
         <module>feign</module>
         <module>zuul</module>
+        <module>config</module>
+        <module>config-client</module>
     </modules>
 
     <properties>

@@ -1,0 +1,27 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JiMi1996/config/
+#          uri: https://github.com/forezp/SpringcloudConfig/
+          searchPaths: SpringcloudConfig
+          username:
+          password:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+
+
+
+
+
